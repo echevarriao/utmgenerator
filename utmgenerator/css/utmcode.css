@@ -1,0 +1,55 @@
+tr > td > label.utmLabel {
+	
+	font-weight: 700;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 14px;
+	
+}
+
+.outputLabel, .paraBlock {
+	
+	font-family: arial, helvetica, sans-serif;
+	font-size: 14px;
+	
+}
+
+tr > td > label.utmRequired, .paraUtmRequired {
+	
+	color: red;
+	
+}
+
+tr > td > label.utmOptional, .paraUtmOptional {
+	
+	color: black;
+}
+
+table > tr > td > label#utmURLSourceLabel {
+	
+	
+}
+
+table > tr > td > label#utmSourceLabel {
+	
+	
+}
+
+table > tr > td > label#utmMediumLabel {
+	
+	
+}
+
+table > tr > td > label#utmCampaignLabel {
+	
+	
+}
+
+table > tr > td > label#utmContentLabel {
+	
+	
+}
+
+table > tr > td > label#utmTermsLabel {
+	
+	
+}

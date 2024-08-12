@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<link href = "css/utmcode.css" rel = "stylesheet" type = "text/css" />
+<script language = "javascript" src = "js/utmcode.js">
+</script>
+</head>
+<body>
+	<div>
+		<form id = "utmForm">
+			<table>
+				<tr>
+					<td><label class = "utmLabel utmRequired" id = "utmURLSourceLabel">Website URL</label></td>
+					<td><input type = "text" name = "url" id = "url" /></td>
+				</tr>
+
+				<tr>
+					<td><label class = "utmLabel utmRequired" id = "utmSourceLabel">UTM Source</label></td>
+					<td><input type = "text" name = "source" id = "source" /></td>
+				</tr>
+				<tr>
+					<td><label class = "utmLabel utmRequired" id = "utmMediumLabel">UTM Medium</label></td>
+					<td><input type = "text" name = "medium" id = "medium" /></td>
+				</tr>
+				<tr>
+					<td><label class = "utmLabel utmOptional" id = "utmCampaignLabel">UTM Campaign</label></td>
+					<td><input type = "text" name = "campaign" id = "campaign" /></td>
+				</tr>
+				<tr>
+					<td><label class = "utmLabel utmOptional" id = "utmContentLabel">UTM Content</label></td>
+					<td><input type = "text" name = "content" id = "content" /></td>
+				</tr>
+				<tr>
+					<td><label class = "utmLabel utmOptional" id = "utmTermsLabel">UTM Terms</label></td>
+					<td><input type = "text" name = "term" id = "term" /></td>
+				</tr>
+				<tr>
+					<td colspan = "2"><a href = "#" id = "copyFormId">Copy</a> | <a href = "#" id = "resetFormId">Reset</a></td>
+				</tr>
+			</table>
+			<input type = "hidden" value = "" name = "dataURL" id = "dataURL" />
+		</form>
+	</div>
+	<div class = "outputBlock" id = "utmOutput">
+		<p>
+			<span class = "outputLabel"><b>UTM Code for URL: </b></span>
+		</p>
+	</div>
+	<div class = "outputBlock" id = "errorOutput">
+		
+	</div>
+	<hr />
+	<div class = "keyOutputBlock">
+		<p><b><span class = "paraBlock">Key</span></b></p>
+		<ul>
+		<li><p><span class = "paraUtmRequired paraBlock">Required for UTM</span></p></li>
+		<li><p><span class = "paraUtmOptional paraBlock">Not Required for UTM</span></p></li>
+		</ul>
+		<hr />
+		<p class = "paraBlock"><b>Definitions</b></p>
+		<ul>
+			<li><p class = "paraBlock"><b>Source</b> social network, search engine, or specific source drove the traffic to your site</p></li>
+			<li><p class = "paraBlock"><b>Medium</b> channel type (e.g., organic social, paid social, email) drove the traffic to your site</p></li>
+			<li><p class = "paraBlock"><b>Term</b> paid keywords or key phrases that warrant a UTM tag</p></li>
+			<li><p class = "paraBlock"><b>Content</b> different ads within a campaign</p> </li>
+			<li><p class = "paraBlock"><b>Campaign</b> campaign unique name, so you can keep track of traffic. This could be the name of a contest, sale, deal, influencer ID, or even a product name</p></li>
+		</ul>
+	</div>
+</body>
+</html>
